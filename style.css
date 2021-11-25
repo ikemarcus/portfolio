@@ -5,7 +5,7 @@
 }
 
 #banner {
-    background: linear-gradient(rgba(0,0,0,0.0025), #ff2424), url(image/citybg.jfif);
+    background: linear-gradient(rgba(0,0,0,0.0025), #ff2424), url(image/galaxy-stars.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
