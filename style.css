@@ -5,7 +5,7 @@
 }
 
 #banner {
-    background: linear-gradient(rgba(0,0,0,0.0025), #0099E6), url(image/citybg.jfif);
+    background: linear-gradient(rgba(0,0,0,0.0025), #ff2424), url(image/citybg.jfif);
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -67,7 +67,7 @@
 }
 
 .banner-btn a:hover {
-    color: #0099E6;
+    color: #E10600;
 }
 
 #sideNav {
@@ -76,7 +76,7 @@
     position: fixed;
     right: -250px;
     top: 0;
-    background: #0099E6;
+    background: #ff5252;
     z-index: 2;
     transition: 0.5s;
 }
@@ -94,7 +94,7 @@ nav ul li a {
 #menuBtn {
     width: 50px;
     height: 50px;
-    background: #0099E6;
+    background: #ff2424;
     text-align: center;
     position: fixed;
     right: 30px;
