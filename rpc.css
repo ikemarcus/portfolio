@@ -31,3 +31,21 @@ header h1{
     padding: 15px 20px;
     font-family: Asap, sans-serif;
 }
+
+.badge {
+    background: #E2584D;
+    color: white;
+    font-size: 14px;
+    padding: 2px 10px;
+    font-family: Asap, sans-serif;
+}
+
+#user-label {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#comp-label {
+
+}
