@@ -1,0 +1,5 @@
+
+-= Week 2 Les 1 =-
+
+Ik heb de html + css gedaan van een minigame die ik ga maken met javascript.
+Ik heb deze les alle opmaak gedaan en de volgende les ga ik de javascript toevoegen.
