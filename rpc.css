@@ -14,6 +14,21 @@ header {
     padding: 20px;
 }
 
+#back {
+    text-align: left;
+    color: white;
+    font-family: Asap, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    float: left;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	text-align: center;
+	bottom: 0px;
+	width: 100%;
+    padding-top: 50px;
+}
+
 header h1{
     color: #292C34;
     text-align: center;
