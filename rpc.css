@@ -15,7 +15,7 @@ header {
 }
 
 header h1{
-    color: #24272E;
+    color: #292C34;
     text-align: center;
     font-family: Asap, sans-serif;
 }
@@ -75,4 +75,9 @@ header h1{
     margin: 0 20px;
     padding: 10px;
     display: inline-block;
+}
+
+.choice:hover {
+    cursor: pointer;
+    background: #22272E;
 }
