@@ -25,7 +25,7 @@ Ja
 -= week 2 les 2 =-
 
 Planning: 
-Javascript schrijven van het spel van week 1.
+Javascript schrijven van het spel van les 1.
 
 Afgekregen: 
 Ja
