@@ -1,5 +1,5 @@
 let userScore = 0;
-let computeScore = 0;
+let computerScore = 0;
 const userScore_span = document.getElementById("user-score");
 const computerScore_span = document.getElementById("comp-score");
 const scroreBoard_div = document.querySelector(".score-board");
@@ -26,11 +26,11 @@ function win(userChoice, computerChoice) {
     computerScore_span.innerHTML = computeScore;
     const smallUserWord = "user".fontsize(3).sub();
     const smallCompWord = "comp".fontsize(3).sub();
-    result_p.innerHTML = `${convertToWord(userChoice)}${smallUserWord} beats ${convertToWord(computerChoice)}${smallCompWord}. You win!`;
+    result_p.innerHTML = `${convertToWord(userChoice)}${smallUserWord} loses to ${convertToWord(computerChoice)}${smallCompWord}. You lose...`;
 }
 
 function lose() {
-    userScore++;
+    computerScore++;
     userScore_span.innerHTML = userScore;
     computerScore_span.innerHTML = computeScore;
     const smallUserWord = "user".fontsize(3).sub();
