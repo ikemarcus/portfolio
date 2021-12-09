@@ -1,5 +1,31 @@
+-= week 1 les 1 =-
+
+planning: 
+Maken portfolio website
+
+afgekregen:
+Nee 
+
+-= week 1 les 2 =-
+
+planning: 
+afmaken portfolio website
+
+afgekregen: 
+Ja
 
 -= Week 2 Les 1 =-
 
-Ik heb de html + css gedaan van een minigame die ik ga maken met javascript.
-Ik heb deze les alle opmaak gedaan en de volgende les ga ik de javascript toevoegen.
+Planning: 
+De opmaak van een spel dat ik met javascript ga maken.
+
+Afgekregen: 
+Ja 
+
+-= week 2 les 2 =-
+
+Planning: 
+Javascript schrijven van het spel van week 1.
+
+Afgekregen: 
+Ja
