@@ -29,7 +29,7 @@ function win(userChoice, computerChoice) {
     result_p.innerHTML = `${convertToWord(userChoice)}${smallUserWord} loses to ${convertToWord(computerChoice)}${smallCompWord}. You lose...`;
 }
 
-function lose() {
+function lose(userChoice, computerChoice) {
     computerScore++;
     userScore_span.innerHTML = userScore;
     computerScore_span.innerHTML = computeScore;
