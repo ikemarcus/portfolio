@@ -25,6 +25,7 @@ function win(userChoice, computerChoice) {
     userScore_span.innerHTML = userScore;
     computerScore_span.innerHTML = computeScore;
     const smallUserWord = "user".fontsize(3).sup();
+    const smallUserWord = "comp".fontsize(3).sup();
     result_p.innerHTML = `${convertToWord(userChoice)}(user) beats ${convertToWord(computerChoice)}(comp). You win!`;
 }
 
