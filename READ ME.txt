@@ -29,3 +29,12 @@ Javascript schrijven van het spel van les 1.
 
 Afgekregen: 
 Ja
+
+-= Week 3 les 1 =-
+
+Planning: 
+Slider maken
+Website in het algemeen opschonen (wel afgekregen)
+
+afgekregen:
+nee
