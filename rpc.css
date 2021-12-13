@@ -6,7 +6,10 @@
 }
 
 body {
-    background-color: #292C34;
+    background: linear-gradient(rgba(0,0,0,0.0025), #ff2424), url(image/background.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
 }
 
 header {
@@ -26,7 +29,7 @@ header {
 }
 
 header h1{
-    color: #292C34;
+    color: black;
     text-align: center;
     font-family: Asap, sans-serif;
 }
@@ -42,6 +45,7 @@ header h1{
     padding: 15px 20px;
     font-family: Asap, sans-serif;
     position: relative;
+    background-color: black;
 }
 
 .badge {
@@ -93,6 +97,7 @@ header h1{
     cursor: pointer;
     background: #22272E;
 }
+
 
 #action-message {
     text-align: center;
