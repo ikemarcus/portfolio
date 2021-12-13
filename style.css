@@ -259,14 +259,18 @@ nav ul li a {
     line-height: 40px;
     text-align: center;
     cursor: pointer;
-    background-color: white;
-    color: black;
+    background-color: black;
+    color: white;
     transition: all 0.7s;
     font-size: 20px;
     font-weight: bold;
 }
 .hi-slide .hi-next:hover, .hi-slide .hi-prev:hover{
-
+    opacity: 1;
+    background-color: black;
+}
+.hi-slide .hi-prev {
+    left: -70px;
 }
 
 
