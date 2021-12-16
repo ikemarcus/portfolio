@@ -8,15 +8,6 @@ const rock_div = document.getElementById("r");
 const paper_div = document.getElementById("p");
 const scissors_div = document.getElementById("s");
 const body = document.getElementById("body");
-const sliders = document.querySelector(".carouselbox")
-var scrollPerClick;
-var ImagePadding = 20;
-
-showMovieData()
-
-async function showMovieData() {
-    
-}
 
 
 function getComputerChoice() {
