@@ -247,3 +247,10 @@ nav ul li a {
     margin: 30px auto;
     position: relative;
 }
+#sliding {
+    width: 100%;
+    display: inline-flex;
+}
+#sliding img {
+    width: 100%;
+}
