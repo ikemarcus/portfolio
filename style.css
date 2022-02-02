@@ -259,18 +259,22 @@ nav ul li a {
 }
 .body {
     margin: 0;
-    background-color: #000;
 }
-h1 {
+.h1 {
     font-family: Arial;
-    color: red;
+    color: white;
     text-align: center;
+}
+.bg5{
+    background-color: black;
+    padding: 20px
 }
 .wrapper {
     display: grid;
     grid-template-columns: repeat(3, 100%);
     overflow: hidden;
     scroll-behavior: smooth;
+    background-color: black;
 }
 .wrapper section {
     width: 100%;
@@ -278,6 +282,9 @@ h1 {
     display: grid;
     grid-template-columns: repeat(5, auto);
     margin: 20px 0;
+}
+.img1{
+    width: 300px;
 }
 .wrapper section .item {
     padding: 0 2px;
