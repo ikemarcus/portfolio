@@ -4,6 +4,10 @@
     font-family: 'Poppins', sans-serif;
     scroll-behavior: smooth;
 }
+body{
+    background: #141414;
+    color: white;
+}
 
 #banner {
     background: linear-gradient(rgba(0,0,0,0.0025), #000), url(image/background.png);
@@ -157,7 +161,7 @@ nav ul li a {
             content: '';
             width: 50px;
             height: 35px;
-            background: linear-gradient(#008000, #fff);
+            background: linear-gradient(#008000, #292929);
             position: absolute;
             top: -20px;
             left: 0;
