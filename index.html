@@ -11,6 +11,47 @@
     <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins&family=Public+Sans&display=swap" rel="stylesheet">
 </head>
 <body>
+    
+    <select id="my_selection">
+        <option value="0" href="">Settings</option>
+        <option value="x" href="index.html">English</option>
+        <option value="y" href="ned.html">Netherlands</option>
+    </select>
+        
+    <script>
+        document.getElementById('my_selection').onchange = function() {
+            window.location.href = this.children[this.selectedIndex].getAttribute('href');
+        }
+    </script>
+
+    <style>
+        /* The container must be positioned relative: */
+.custom-select {
+  position: relative;
+  font-family: Arial;
+}
+
+.custom-select select {
+  display: none; /*hide original SELECT element: */
+}
+
+.select-selected {
+    background-color: DodgerBlue;
+}
+
+/* Style the arrow inside the select element: */
+.select-selected:after {
+    position: absolute;
+    content: "";
+    top: 14px;
+    right: 10px;
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+    border-color: #fff transparent transparent transparent;
+}
+    </style>
+
     <section id="banner">
         <img class="logo">
         <div class="banner-text">
