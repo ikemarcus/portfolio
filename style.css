@@ -1,7 +1,9 @@
-﻿* {
+﻿
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+* {
     margin: 0;
     padding: 0;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
     scroll-behavior: smooth;
 }
 
@@ -36,12 +38,10 @@ body{
 
 .banner-text h1 {
     font-size: 130px;
-    font-family: 'Kaushan Script', cursive;
 }
 
 .banner-text p {
     font-size: 50px;
-    font-style: italic;
 }
 
 .banner-btn {
