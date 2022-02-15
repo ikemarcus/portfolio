@@ -383,9 +383,19 @@ nav ul li a {
   }
   .typed-out{
     overflow: hidden;
-    border-right: .15em solid orange;
+    border-right: .15em solid white;
     white-space: nowrap;
-    animation: typing 1s steps(20, end) forwards, blinking .95s infinite;
+    animation: typing 1s steps(20, end) forwards, blinking .8s infinite;
+    animation-delay: 50ms;
+    font-size: 1.6rem;
+    width: 0;
+  }
+  .typed-out2{
+    overflow: hidden;
+    border-right: .15em solid white;
+    white-space: nowrap;
+    animation: typing 1s steps(20, end) forwards, blinking .8s infinite;
+    animation-delay: 1s;
     font-size: 1.6rem;
     width: 0;
   }
@@ -393,10 +403,7 @@ nav ul li a {
     from { width: 0 }
     to { width: 100% }
   }
-  @keyframes delay {
-     
-  }
   @keyframes blinking {
     from { border-color: transparent }
-    to { border-color: orange; }
+    to { border-color: white; }
   }
