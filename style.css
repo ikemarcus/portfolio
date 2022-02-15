@@ -380,8 +380,8 @@ nav ul li a {
 /* Animation */
 .container{
     display: inline-block;
-  }
-  .typed-out{
+}
+.typed-out{
     overflow: hidden;
     border-right: .15em solid orangered;
     white-space: nowrap;
@@ -389,8 +389,8 @@ nav ul li a {
     animation-delay: 50ms;
     font-size: 1.6rem;
     width: 0;
-  }
-  .typed-out2{
+}
+.typed-out2{
     overflow: hidden;
     border-right: .15em solid orangered;
     white-space: nowrap;
@@ -398,12 +398,12 @@ nav ul li a {
     animation-delay: 1s;
     font-size: 1.6rem;
     width: 0;
-  }
-  @keyframes typing {
+}
+@keyframes typing {
     from { width: 0 }
     to { width: 100% }
-  }
-  @keyframes blinking {
+}
+@keyframes blinking {
     from { border-color: transparent }
     to { border-color: orangered; }
-  }
+}
