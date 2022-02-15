@@ -383,16 +383,16 @@ nav ul li a {
   }
   .typed-out{
     overflow: hidden;
-    border-right: .15em solid white;
+    border-right: .15em solid orangered;
     white-space: nowrap;
-    animation: typing 1s steps(20, end) forwards, blinking .8s infinite;
+    animation: typing 2s steps(10, end) forwards, blinking .8s infinite;
     animation-delay: 50ms;
     font-size: 1.6rem;
     width: 0;
   }
   .typed-out2{
     overflow: hidden;
-    border-right: .15em solid white;
+    border-right: .15em solid orangered;
     white-space: nowrap;
     animation: typing 1s steps(20, end) forwards, blinking .8s infinite;
     animation-delay: 1s;
@@ -405,5 +405,5 @@ nav ul li a {
   }
   @keyframes blinking {
     from { border-color: transparent }
-    to { border-color: white; }
+    to { border-color: orangered; }
   }
