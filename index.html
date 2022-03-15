@@ -24,7 +24,7 @@
         }
     </script>
 
-    <section id="banner">
+    <section id="banner" >
         <img class="logo">
         <div class="banner-text">
             <div class="container">
@@ -38,7 +38,7 @@
             </div>
             <div class="banner-btn2">
                 <a href="rpc.html"><span></span>Mini Game</a>
-                <a href=""><span></span>Contact Info</a>
+                <a href="#contact"><span></span>Contact Info</a>
             </div>
         </div>
     </section>
@@ -53,6 +53,7 @@
                 <li><a href="#stage">Backstage</a></li>
                 <li><a href="#slider">SLIDER (comming soon)</a></li>
                 <li><a href="rpc.html">Rock Paper Scissors</a></li>
+                <li><a href="#contact">Contact Me</a></li>
             </ul>
         </nav>
     </div>
@@ -476,5 +477,28 @@
         </section>
     </div>
     </div>
+    
+    <section class="contact" id="contact">
+        <h2>My Contact Info</h2>
+        <div class="banner-btn">
+            <a href="mailto:i.marcus@sintlucasedu.nl"><span></span>Mail Me</a>
+            <div class="popup" onclick="myFunction()"><a><span></span>Call Me</a>
+                <span class="popuptext" id="myPopup">06 102 876 38</span>
+                </div>
+        
+                <script>
+                    function myFunction() {
+                    var popup = document.getElementById("myPopup");
+                    popup.classList.toggle("show");
+                    }
+                </script>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+        </div>
+    </section>
 </body>
 </html>
