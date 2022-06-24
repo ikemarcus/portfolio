@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Portfolio: Ike Marcus</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+    <meta name="view" content="width =device-width, initial-scale =1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins&family=Public+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <select id="my_selection">
+        <option value="0" href="">Language</option>
+        <option value="x" href="index.html">English</option>
+        <option value="y" href="">Dutch - Comming Soon</option>
+    </select>
+        
+    <script>
+        document.getElementById('my_selection').onchange = function() {
+            window.location.href = this.children[this.selectedIndex].getAttribute('href');
+        }
+    </script>
+
+    <section id="banner" >
+        <img class="logo">
+        <div class="banner-text">
+            <div class="container">
+            <div class="typed-out">
+            <h1>Web Script</h1></div></div>
+            <p>Javascript - SintLucas</p>
+            <h2>Leerjaar 2 - Periode 8</h2>
+            <!--<div class="banner-btn">
+                <a href="#todo"><span></span>Best Work</a>
+                <a href="#data"><span></span>Newest Work</a>
+            </div>-->
+            <div class="banner-btn2">
+                <a href="index.html"><span></span>Back to Portfolio</a>
+            </div>
+        </div>
+    </section>
+
+    <div id="sideNav">
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#todo"> SintLucas Funnel</a></li>
+                <li><a href="#piano">Todo List</a></li>
+                <li><a href="#data">Javascript Assesment</a></li>
+                <li><a href="#stage">Loops</a></li>
+                <li><a href="#pong">Refactor</a></li>
+                <li><a href="#makey">Widget</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div id="menuBtn">
+        <img src="image/menu.png" id="menu">
+    </div>
+
+    <!--Features-->
+
+    <section id="todo">
+        <div class="title-text">
+            <p>html + css + php</p>
+            <h1>Todo List</h1>
+        </div>
+        <div class="feature-box">
+            <div class="features">
+                <h1>What is this?</h1>
+                <div class="features-desc">
+                    <div class="feature-icon">
+                        <i class="fa">📁</i>
+                    </div>
+                    <div class="feature-text">
+                        <p>This is a todo app made in visual studio code. I used html, css and php.</p>
+                    </div>
+                </div>
+                <h1>When was this made?</h1>
+                <div class="features-desc">
+                    <div class="feature-icon">
+                        <i class="fa">⏰</i>
+                    </div>
+                    <div class="feature-text">
+                        <p>I made this in my first year of MBO on the school SintLucas.</p>
+                    </div>
+                </div>
+                <h1>My Skills at this project:</h1>
+                <div class="features-desc">
+                    <div class="feature-icon">
+                        <i class="fa">🔰</i>
+                    </div>
+                    <div class="feature-text">
+                        <p>This was my first time with php and it was doable for me. I had to use Html and css, I already knew this when i started. I had to work independently.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="features-img">
+                <img src="image/todolist.png">
+            </div>
+          </div>
+          <br /> 
+          <br /> 
+    </section>
+
+    <section id="piano" class="padding">
+        <div class="title-text">
+            <p>Unity2D + C-Sharp</p>
+            <h1>Piano Madness</h1>
+        </div>
+        <div class="feature-box">
+            <div class="features">
+                <h1>What is this?</h1>
+                <div class="features-desc">
+                    <div class="feature-icon">
+                        <i class="fa">📁</i>
+                    </div>
+                    <div class="feature-text">
+                        <p>This is a working piano made in unity2D, also with downloaded tune sounds.</p>
+                    </div>
+                </div>
+                <h1>When was this made?</h1>
+                <div class="features-desc">
+                    <div class="feature-icon">
+                        <i class="fa">⏰</i>
+                    </div>
+                    <div class="feature-text">
+                        <p>I made this as a own project in a internweek.</p>
+                    </div>
+                </div>
+                <h1>My Skills at this project:</h1>
+                <div class="features-desc">
+                    <div class="feature-icon">
+                        <i class="fa">🔰</i>
+                    </div>
+                    <div class="feature-text">
+                        <p>I can import things in unity and work with the basics of unity and c#.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="features-img">
+                <img src="image/piano.png">
+            </div>
+        </div>
+        <br /> 
+        <br />
+        <br />
+        <br />
+    </section>
+
+    <section id="data">
+        <div class="title-text">
+            <p>html + css + javascript</p>
+            <h1>Data vision</h1>
+        </div>
+        <div class="feature-box">
+            <div class="features">
+                <h1>What is this?</h1>
+                <div class="features-desc">
+                    <div class="feature-icon">
+                        <i class="fa">📁</i>
+                    </div>
+                    <div class="feature-text">
+                    <p>This is a website made in Visual Studio Code. I collected Data from murders worldwide. There is a little story about the worst murder in that continent. Everything was Made by me and 2 artists.</p>
+                    </div>
+                </div>
+                <h1>When was this made?</h1>
+                <div class="features-desc">
+                    <div class="feature-icon">
+                        <i class="fa">⏰</i>
+                    </div>
+                    <div class="feature-text">
+                        <p>I made this in the second period of the second school year.</p>
+                    </div>
+                </div>
+                <h1>My Skills at this project:</h1>
+                <div class="features-desc">
+                    <div class="feature-icon">
+                        <i class="fa">🔰</i>
+                    </div>
+                    <div class="feature-text">
+                        <p>The communication went very well, We had a working scrum planning and we discussed everything together.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="features-img">
+                <img src="image/data1.png" style="padding-bottom: 1.5%;">
+                <img src="image/data2.png">
+            </div>
+            <br /> 
+            <br />
+            <br />
+            <br />
+        </div>
+    </section>
+    <br /> 
+    <br />
+    <br />
+    <br />
+    <section id="stage">
+        <div class="title-text">
+            <p>html + css + php + xampp</p>
+            <h1>Backstage</h1>
+        </div>
+        <div class="feature-box">
+            <div class="features">
+                <h1>What is this?</h1>
+                <div class="features-desc">
+                    <div class="feature-icon">
+                        <i class="fa">📁</i>
+                    </div>
+                    <div class="feature-text">
+                        <p>This is a project i made to practise my PHP skills, this was my first time using it so it went pretty slowly. I want to practice PHP because i want to be more advanced wth this language.</p>
+                    </div>
+                </div>
+                <h1>When was this made?</h1>
+                <div class="features-desc">
+                    <div class="feature-icon">
+                        <i class="fa">⏰</i>
+                    </div>
+                    <div class="feature-text">
+                        <p>This was made in the second period of my first school year,</p>
+                    </div>
+                </div>
+                <h1>My Skills at this project:</h1>
+                <div class="features-desc">
+                    <div class="feature-icon">
+                        <i class="fa">🔰</i>
+                    </div>
+                    <div class="feature-text">
+                        <p>My skills in this project are, Using PHP and combining it with a database.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="features-img">
+                <img src="image/stage1.png">
+            </div>
+        </div>
+        <br /> 
+        <br />
+        <br />
+        <br />
+    </section>
+
+    <section id="pong">
+        <div class="title-text">
+            <p>C# + Unity2D</p>
+            <h1>Pong</h1>
+        </div>
+        <div class="feature-box">
+            <div class="features">
+                <h1>What is this?</h1>
+                <div class="features-desc">
+                    <div class="feature-icon">
+                        <i class="fa">📁</i>
+                    </div>
+                    <div class="feature-text">
+                        <p>This was my first project with using code ever. It was very confusing ans very hard. But i kept my motivation and finished it and it turned out pretty nice.</p>
+                    </div>
+                </div>
+                <h1>When was this made?</h1>
+                <div class="features-desc">
+                    <div class="feature-icon">
+                        <i class="fa">⏰</i>
+                    </div>
+                    <div class="feature-text">
+                        <p>The first period of my first school year.</p>
+                    </div>
+                </div>
+                <h1>My Skills at this project:</h1>
+                <div class="features-desc">
+                    <div class="feature-icon">
+                        <i class="fa">🔰</i>
+                    </div>
+                    <div class="feature-text">
+                        <p>I got the basic knowlegde of Unity.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="features-img">
+                <img src="image/pong.png">
+            </div>
+        </div>
+    </section>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <section id="makey">
+        <div class="title-text">
+            <p>Makey Makey + Python + Unity3D</p>
+            <h1>Makey Makey</h1>
+        </div>
+        <div class="feature-box">
+            <div class="features">
+                <h1>What is this?</h1>
+                <div class="features-desc">
+                    <div class="feature-icon">
+                        <i class="fa">📁</i>
+                    </div>
+                    <div class="feature-text">
+                        <p>This project was with an Makey Makey device. I got a random unity file and I had to make a game with it. I connected 2 home made controlers to a Makey Makey. I made wires with foil and connected it to a board. Everything worked with the energy of someones body.</p>
+                    </div>
+                </div>
+                <h1>When was this made?</h1>
+                <div class="features-desc">
+                    <div class="feature-icon">
+                        <i class="fa">⏰</i>
+                    </div>
+                    <div class="feature-text">
+                        <p>This was made in the fourth period of my first school year.</p>
+                    </div>
+                </div>
+                <h1>My Skills at this project:</h1>
+                <div class="features-desc">
+                    <div class="feature-icon">
+                        <i class="fa">🔰</i>
+                    </div>
+                    <div class="feature-text">
+                        <p>I Got to use a Makey Makey and experimented with wires made from foil. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="features-img" >
+                <img style="width: 60%;" src="image/py`1.png">
+                <img style="width: 60%;" src="image/py2.png">
+            </div>
+        </div>
+    </section>
+
+    <section id="wtf">
+        <div class="title-text">
+            <p>Photoshop + Illustrator</p>
+            <h1>WTF is creativity?</h1>
+        </div>
+        <div class="feature-box">
+            <div class="features">
+                <h1>What is this?</h1>
+                <div class="features-desc">
+                    <div class="feature-icon">
+                        <i class="fa">📁</i>
+                    </div>
+                    <div class="feature-text">
+                        <p>In my first year we had something called "creativity". In this lecture we could make our own projects and be as creative as we wanted. In the last project i made 36 posters and posted them on instagram so if you looked at it from a distance you had 1 big poster.</p>
+                    </div>
+                </div>
+                <h1>When was this made?</h1>
+                <div class="features-desc">
+                    <div class="feature-icon">
+                        <i class="fa">⏰</i>
+                    </div>
+                    <div class="feature-text">
+                        <p>This was made in my fourth period of my first year.</p>
+                    </div>
+                </div>
+                <h1>My Skills at this project:</h1>
+                <div class="features-desc">
+                    <div class="feature-icon">
+                        <i class="fa">🔰</i>
+                    </div>
+                    <div class="feature-text">
+                        <p>I got a lot of illustrator experience from this.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="features-img">
+                <img style="width: 15%;" src="image/wtf.jpg">
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+    </section>
+
+    <!--
+        Poging tot slider
+
+    <section id="slider">
+        <div class="slider-box">
+            <div id="sliding">
+                <img src="image/questionmark.jpg">
+                <img src="image/questionmark.jpg">
+                <img src="image/rpcimage.png">
+                <img src="image/questionmark.jpg">
+            </div>
+            <div class="indicators">
+                <span id="btn1"></span>
+                <span id="btn2"></span>
+                <span id="btn3"></span>
+                <span id="btn4"></span>
+            </div>
+        </div>
+    </section>
+    -->
+    <script>
+        var menuBtn = document.getElementById("menuBtn")
+        var sideNav = document.getElementById("sideNav")
+        var menu = document.getElementById("menu")
+
+        sideNav.style.right = "-250px";
+
+        menuBtn.onclick = function () {
+            if (sideNav.style.right == "-250px") {
+                sideNav.style.right = "0";
+                menu.src = "image/close.png";
+            }
+            else {
+                sideNav.style.right = "-250px";
+                menu.src = "image/menu.png";
+            }
+        }
+    </script>
+</body>
+</html>
+
+<html class="html" lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+</head>
+</html>
