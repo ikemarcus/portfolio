@@ -239,6 +239,22 @@
         }
     </style>
     <script>
+        function isMobileDevice() {
+            return (typeof window.orientation !== "undefined") || (navigator.userAgent.indexOf('IEMobile') !== -1);
+        }
+
+        // Function to show the mobile message if the user is on a mobile device
+        function showMobileMessage() {
+            var mobileMessage = document.getElementById('mobile-message');
+            if (isMobileDevice()) {
+                mobileMessage.style.display = 'block';
+            }
+        }
+
+        // Call the showMobileMessage function when the page loads
+        window.onload = function() {
+            showMobileMessage();
+        }
         function showPopup(sectionId) {
             var popup = document.getElementById(sectionId);
             popup.classList.add("show");
@@ -277,6 +293,10 @@
             </div>
         </div>
     </section>
+
+    <div id="mobile-message" style="display: none;">
+        <p>This website is best viewed on a PC.</p>
+    </div>
 
     <div class="app-container" id="projects">
         <section id="todo" class="section-box" onclick="showPopup('popup-todo')" style="background-image: url('image/todolist.png');">
