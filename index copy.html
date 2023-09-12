@@ -308,28 +308,31 @@
         }
 
         // Check if the user has previously accepted cookies
-        if (!localStorage.getItem('cookiesAccepted')) {
-            // Show the cookies popup
-            const cookiesPopup = document.getElementById('cookies-popup');
-            cookiesPopup.style.display = 'block';
+        document.addEventListener('DOMContentLoaded', function() {
+            if (!localStorage.getItem('cookiesAccepted')) {
+                // Show the cookies popup
+                const cookiesPopup = document.getElementById('cookies-popup');
+                cookiesPopup.style.display = 'block';
 
-            // Handle the accept button click
-            document.getElementById('accept-cookies').addEventListener('click', () => {
-                // Set a flag in local storage to remember that cookies are accepted
-                localStorage.setItem('cookiesAccepted', 'true');
+                // Handle the accept button click
+                document.getElementById('accept-cookies').addEventListener('click', () => {
+                    // Set a flag in local storage to remember that cookies are accepted
+                    localStorage.setItem('cookiesAccepted', 'true');
 
-                // Hide the cookies popup
-                cookiesPopup.style.display = 'none';
-            });
+                    // Hide the cookies popup
+                    cookiesPopup.style.display = 'none';
+                });
 
-            // Handle the decline button click
-            document.getElementById('decline-cookies').addEventListener('click', () => {
-                // Handle the decline action (e.g., disable non-essential cookies)
+                // Handle the decline button click
+                document.getElementById('decline-cookies').addEventListener('click', () => {
+                    // Handle the decline action (e.g., disable non-essential cookies)
 
-                // Hide the cookies popup
-                cookiesPopup.style.display = 'none';
-            });
-        }
+                    // Hide the cookies popup
+                    cookiesPopup.style.display = 'none';
+                });
+            }
+        });
+       
     </script>
 </head>
 <body>
