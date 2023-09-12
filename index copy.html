@@ -237,6 +237,36 @@
         .lightbox.active {
         display: flex;
         }
+
+        .cookies-popup {
+            display: none;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background-color: #f1f1f1;
+            padding: 15px;
+            text-align: center;
+            z-index: 999;
+        }
+
+        .cookies-popup-content {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .btn {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            margin: 5px;
+        }
+
+        .btn:hover {
+            background-color: #0056b3;
+        }
     </style>
     <script>
         function isMobileDevice() {
@@ -275,6 +305,30 @@
         function closeLightbox() {
             const lightbox = document.querySelector('.lightbox');
             lightbox.classList.remove('active');
+        }
+
+        // Check if the user has previously accepted cookies
+        if (!localStorage.getItem('cookiesAccepted')) {
+            // Show the cookies popup
+            const cookiesPopup = document.getElementById('cookies-popup');
+            cookiesPopup.style.display = 'block';
+
+            // Handle the accept button click
+            document.getElementById('accept-cookies').addEventListener('click', () => {
+                // Set a flag in local storage to remember that cookies are accepted
+                localStorage.setItem('cookiesAccepted', 'true');
+
+                // Hide the cookies popup
+                cookiesPopup.style.display = 'none';
+            });
+
+            // Handle the decline button click
+            document.getElementById('decline-cookies').addEventListener('click', () => {
+                // Handle the decline action (e.g., disable non-essential cookies)
+
+                // Hide the cookies popup
+                cookiesPopup.style.display = 'none';
+            });
         }
     </script>
 </head>
@@ -438,6 +492,14 @@
             <img src="image/Screenshot_20230516_100740.jpg" alt="Profile Picture">
           </div>
     </section>
+
+    <div id="cookies-popup" class="cookies-popup">
+        <div class="cookies-popup-content">
+            <p>This website uses cookies to ensure you get the best experience on our website.</p>
+            <button id="accept-cookies" class="btn">Accept</button>
+            <button id="decline-cookies" class="btn">Decline</button>
+        </div>
+    </div>
 </body>
 <footer>
     <div class="contact-section" id="contact">
