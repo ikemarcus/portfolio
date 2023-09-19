@@ -17,8 +17,8 @@ body{
 }
 
 #banner {
-    background: linear-gradient(rgba(0,0,0,0.0025), #000), url(image/background.png);
-    background-size: cover;
+    background: linear-gradient(rgba(0,0,0,0.6), #000), url(image/boekjes.jpg);
+    background-size: 30%;
     background-position: center;
     height: 100vh;
 }
