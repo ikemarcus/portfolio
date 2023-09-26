@@ -268,6 +268,10 @@
         .btn:hover {
             background-color: #0056b3;
         }
+
+        #top10{
+            background-size: 150%;
+        }
     </style>
     <script>
         function isMobileDevice() {
@@ -404,6 +408,12 @@
                 <h1>Rock Paper Scissors</h1>
             </div>
         </section>
+
+        <section id="top10" class="section-box" onclick="showPopup('popup-top10')" style="background-image: url('image/top10vid.png');">
+            <div class="title-text">
+                <h1>Fetched Top 10 Videos</h1>
+            </div>
+        </section>
     </div>
 
         <!-- Todo List Popup -->
@@ -475,6 +485,14 @@
             <img class="banner-image" src="rpc.html">
             <h2>Rock Paper Scissors</h2>
             <p></p>
+        </div>
+    </div>
+    <div id="popup-top10" class="popup-overlay" onclick="hidePopup('popup-top10')">
+        <div class="popup-content">
+            <div class="close-button" onclick="hidePopup('popup-wtf')">&times;</div>
+            <img class="banner-image" src="image/top10vid.png" alt="top 10 videos">
+            <h2>Top 10 Videos</h2>
+            <p>This project fetched 10 videos from youtube with al of their information and it shows the top 10 most populair videos that are trending right now.</p>
         </div>
     </div>
 
